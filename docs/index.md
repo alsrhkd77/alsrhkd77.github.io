@@ -1,15 +1,19 @@
 ---
 home: true
+heroText: hero
 # heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: sdf
-actionText: Quick Start →
-actionLink: /guide/
+tagline: 돈 많은 백수가 되고싶어요
+actions:
+  - text: Hello
+    link: /
+    type: primary
+  - text: world
+    link: /
+    type: secondary
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+  - title: Flutter
+    details: Feature 1 Description
+  - title: FastAPI
+    details: Feature 2 Description
 footer: Made by wer with ❤️
 ---
