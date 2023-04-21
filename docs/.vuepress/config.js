@@ -25,7 +25,8 @@ export default defineUserConfig({
                 text: 'About',
                 link: '/about'
             },
-        ]
+        ],
+        lastUpdated: false,
+        contributors: false,
     }),
-    lastUpdated: false,
 })
